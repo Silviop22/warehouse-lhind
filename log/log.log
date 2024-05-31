@@ -1,0 +1,8 @@
+INFO  - Request: timestamp=2024-05-30T10:00:00, httpMethod=GET, path=/items/1, requestParams={}, requestBody={}, ipAddress=192.168.1.100
+INFO  - Response: timestamp=2024-05-30T10:00:00, httpStatus=200, responseBody={"id": 1, "name": "Dummy Item", "description": "Sample Description", "price": 10.00, "quantity": 1}, ipAddress=192.168.1.100
+INFO  - Request: timestamp=2024-05-30T10:00:00, httpMethod=GET, path=/items/1, requestParams={}, requestBody={}, ipAddress=192.168.1.101
+INFO  - Response: timestamp=2024-05-30T10:00:00, httpStatus=200, responseBody={"id": 1, "name": "Dummy Item", "description": "Sample Description", "price": 10.00, "quantity": 1}, ipAddress=192.168.1.101
+INFO  - Request: timestamp=2024-05-30T10:00:05, httpMethod=PATCH, path=/items/1, requestParams={}, requestBody={"id": 1, "name": "Dummy Item", "description": "Sample Description", "price": 10.00, "quantity": 1}, ipAddress=192.168.1.101
+INFO  - Response: timestamp=2024-05-30T10:00:05, httpStatus=204, responseBody={}, ipAddress=192.168.1.101
+INFO  - Request: timestamp=2024-05-30T10:00:05, httpMethod=PATCH, path=/items/1, requestParams={}, requestBody={"id": null, "name": null, "description": null, "price": null, "quantity": 1}, ipAddress=192.168.1.100
+INFO  - Response: timestamp=2024-05-30T10:00:05, httpStatus=204, responseBody={}, ipAddress=192.168.1.100
